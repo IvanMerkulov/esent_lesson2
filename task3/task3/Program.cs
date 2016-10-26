@@ -11,7 +11,7 @@ namespace task3
         static void Main(string[] args)
         {
        
-            Employee first = new Employee("Иван", "Владимирович");
+            Employee first = new Employee("Иван", "Меркулов");
             first.Appointment = "начальник отдела";
             first.CalcOcladAndNalog();
             first.ShowInfo();
